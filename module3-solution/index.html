@@ -11,30 +11,25 @@
   <body>
 
     <!-- Navbar: Scrolls away naturally with the page -->
-    <nav id="header-nav" class="navbar navbar-default">
-      <div class="container">
+     <nav class="navbar navbar-default">
+      <div class="container-fluid">
         <div class="navbar-header">
-          
-          <!-- Company Name / Brand Aligned Left -->
-          <div class="navbar-brand">
-            <a href="index.html">Food, LLC</a>
-          </div>
-
-          <!-- Mobile Toggle Button (Visible only on xs screens: < 768px) -->
-          <button type="button" class="navbar-toggle collapsed visible-xs" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+          <!-- Toggle Button -->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
+          <a class="navbar-brand" href="#">Food, LLC</a>
         </div>
-
-        <!-- Collapsible Mobile Menu with Links -->
-        <div id="collapsable-nav" class="collapse navbar-collapse">
-          <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs text-center">
-            <li><a href="#chicken-section">Chicken</a></li>
-            <li><a href="#beef-section">Beef</a></li>
-            <li><a href="#sushi-section">Sushi</a></li>
+    
+        <!-- Collapsible Menu -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a href="#chicken">Chicken</a></li>
+            <li><a href="#beef">Beef</a></li>
+            <li><a href="#sushi">Sushi</a></li>
           </ul>
         </div>
       </div>
@@ -104,7 +99,10 @@
     </div>
 
     <!-- JavaScript Dependencies -->
-    <script src="js/jquery-2.1.4.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <!-- jQuery (Required for Bootstrap JavaScript plugins) -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Bootstrap JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   </body>
 </html>
