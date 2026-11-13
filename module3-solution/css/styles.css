@@ -1,4 +1,4 @@
-/* General styling */
+/* General Page Styles */
 body {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   background-color: #f8f9fa;
@@ -8,6 +8,7 @@ body {
 .navbar-default {
   background-color: #d9edf7;
   border-color: #bce8f1;
+  margin-bottom: 20px;
 }
 
 .navbar-brand a {
@@ -22,15 +23,21 @@ body {
   text-decoration: none;
 }
 
-/* Dropdown menu background styling for mobile view */
+/* Mobile Dropdown Styling */
 .navbar-collapse {
   background-color: #e2e3e5;
   border-top: 1px solid #ddd;
+  width: 100%;
+}
+
+.navbar-nav {
+  margin: 0;
 }
 
 .navbar-nav li a {
   color: #333;
   font-weight: bold;
+  padding: 15px;
 }
 
 .navbar-nav li a:hover {
@@ -38,13 +45,12 @@ body {
 }
 
 /* Page Heading */
-#top-heading h1 {
+#top h1 {
   font-weight: bold;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
-/* Section styling */
+/* Grid Sections Styling */
 .menu-section {
   margin-bottom: 30px;
 }
@@ -53,17 +59,23 @@ body {
   background-color: #fff;
   border: 1px solid #ddd;
   padding: 20px;
-  min-height: 700px; /* Makes each section nicely tall as recommended */
-  position: relative;
+  min-height: 700px;
+  box-sizing: border-box;
 }
 
 .section-content h3 {
   margin-top: 0;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   font-weight: bold;
+}
+
+.section-content h4 {
+  font-weight: bold;
+  margin-top: 15px;
+  font-size: 1.1em;
 }
 
 .section-content p {
   color: #555;
-  line-height: 1.6;
+  line-height: 1.5;
 }
