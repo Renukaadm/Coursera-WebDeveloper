@@ -31,33 +31,35 @@ body {
   background-color: #000;
 }
 
-/* Mobile Dropdown Menu */
-#collapsable-nav {
-  background-color: #fff;
-  border-top: 1px solid #000;
-}
+/* Mobile Dropdown Menu (Strictly < 768px) */
+@media (max-width: 767px) {
+  #collapsable-nav {
+    background-color: #fff;
+    border-top: 1px solid #000;
+  }
 
-#nav-list {
-  margin-top: 0;
-  margin-bottom: 0;
-}
+  #nav-list {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
 
-#nav-list li {
-  border-bottom: 1px solid #000;
-}
+  #nav-list li {
+    border-bottom: 1px solid #000;
+  }
 
-#nav-list li:last-child {
-  border-bottom: none;
-}
+  #nav-list li:last-child {
+    border-bottom: none;
+  }
 
-#nav-list a {
-  color: #000;
-  font-size: 1.2em;
-  padding: 10px;
-}
+  #nav-list a {
+    color: #000;
+    font-size: 1.2em;
+    padding: 10px;
+  }
 
-#nav-list a:hover {
-  background-color: #e7e7e7;
+  #nav-list a:hover {
+    background-color: #e7e7e7;
+  }
 }
 
 /** MAIN CONTENT **/
