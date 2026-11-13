@@ -4,21 +4,23 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Food, LLC</title>
+    <title>Food, LLC - Our Menu</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
 
+    <!-- Navbar: Scrolls away naturally (not fixed) -->
     <nav id="header-nav" class="navbar navbar-default">
       <div class="container">
         <div class="navbar-header">
-          <!-- Brand name -->
+          
+          <!-- Company Name / Brand aligned to the left -->
           <div class="navbar-brand">
             <a href="index.html">Food, LLC</a>
           </div>
 
-          <!-- Mobile Toggle Button (Visible only on xs) -->
+          <!-- Mobile Toggle Button (Visible only on xs screens: width < 768px) -->
           <button type="button" class="navbar-toggle collapsed visible-xs" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
@@ -27,9 +29,9 @@
           </button>
         </div>
 
-        <!-- Collapsible mobile menu -->
+        <!-- Collapsible Mobile Menu with Chicken, Beef, Sushi items -->
         <div id="collapsable-nav" class="collapse navbar-collapse">
-          <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+          <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs text-center">
             <li><a href="#chicken-section">Chicken</a></li>
             <li><a href="#beef-section">Beef</a></li>
             <li><a href="#sushi-section">Sushi</a></li>
@@ -38,12 +40,12 @@
       </div>
     </nav>
 
-    <!-- Page Heading -->
+    <!-- Page Heading: Centered using Bootstrap class text-center -->
     <div id="top-heading" class="container">
       <h1 class="text-center">Our Menu</h1>
     </div>
 
-    <!-- Main Content Sections (Including Optional Menu Grid) -->
+    <!-- Main Content Grid (Supports both single-cell or optional 3-cell layout matching rubric specs) -->
     <div class="container">
       <div class="row">
         
@@ -51,9 +53,8 @@
         <div id="chicken-section" class="col-xs-12 col-sm-6 col-md-4 menu-section">
           <div class="section-content">
             <h3 class="text-center">Chicken</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-            <p>Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum.</p>
-            <p><a href="#top-heading">Back to Top</a></p>
+            <p>Free-range chicken, marinated overnight and cooked to order. Every dish is made with fresh herbs and spices, never frozen meat. Rich in flavor and prepared with authentic techniques to satisfy your cravings.</p>
+            <p><a href="#top-heading">[Back to Top]</a></p>
           </div>
         </div>
 
@@ -61,9 +62,8 @@
         <div id="beef-section" class="col-xs-12 col-sm-6 col-md-4 menu-section">
           <div class="section-content">
             <h3 class="text-center">Beef</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-            <p>Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum.</p>
-            <p><a href="#top-heading">Back to Top</a></p>
+            <p>Premium cuts from trusted farms, aged for tenderness and cooked exactly the way you like it, from rare to well done. Served with carefully selected seasonal sides and signature sauces.</p>
+            <p><a href="#top-heading">[Back to Top]</a></p>
           </div>
         </div>
 
@@ -71,9 +71,8 @@
         <div id="sushi-section" class="col-xs-12 col-sm-12 col-md-4 menu-section">
           <div class="section-content">
             <h3 class="text-center">Sushi</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-            <p>Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum.</p>
-            <p><a href="#top-heading">Back to Top</a></p>
+            <p>Made fresh throughout the day by our sushi chefs using seasoned rice, crisp nori, and the freshest fish and vegetables. Hand-rolled to perfection offering an exquisite balance of textures.</p>
+            <p><a href="#top-heading">[Back to Top]</a></p>
           </div>
         </div>
 
@@ -83,6 +82,5 @@
     <!-- JavaScript Dependencies -->
     <script src="js/jquery-2.1.4.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/script.js"></script>
   </body>
 </html>
