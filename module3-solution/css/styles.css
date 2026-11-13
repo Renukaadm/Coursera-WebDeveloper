@@ -1,81 +1,92 @@
-/* General Page Styles */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  background-color: #f8f9fa;
+  font-size: 16px;
+  color: #000;
+  background-color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Navbar Customization */
-.navbar-default {
-  background-color: #d9edf7;
-  border-color: #bce8f1;
-  margin-bottom: 20px;
+/** HEADER / NAVBAR **/
+#header-nav {
+  background-color: #999999;
+  border-radius: 0;
+  border: 2px solid #000;
 }
 
-.navbar-brand a {
-  color: #333;
-  font-weight: bold;
+.navbar-brand {
   font-size: 1.5em;
-  text-decoration: none;
-}
-
-.navbar-brand a:hover,
-.navbar-brand a:focus {
-  text-decoration: none;
-}
-
-/* Mobile Dropdown Styling */
-.navbar-collapse {
-  background-color: #e2e3e5;
-  border-top: 1px solid #ddd;
-  width: 100%;
-}
-
-.navbar-nav {
-  margin: 0;
-}
-
-.navbar-nav li a {
-  color: #333;
   font-weight: bold;
-  padding: 15px;
+  color: #000 !important;
 }
 
-.navbar-nav li a:hover {
-  background-color: #d1d3d5 !important;
+/* Mobile Toggle Button */
+.navbar-header button.navbar-toggle {
+  border: 1px solid #000;
 }
 
-/* Page Heading */
-#top h1 {
+.navbar-header button.navbar-toggle .icon-bar {
+  background-color: #000;
+}
+
+/* Mobile Dropdown Menu */
+#collapsable-nav {
+  background-color: #fff;
+  border-top: 1px solid #000;
+}
+
+#nav-list {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#nav-list li {
+  border-bottom: 1px solid #000;
+}
+
+#nav-list li:last-child {
+  border-bottom: none;
+}
+
+#nav-list a {
+  color: #000;
+  font-size: 1.2em;
+  padding: 10px;
+}
+
+#nav-list a:hover {
+  background-color: #e7e7e7;
+}
+
+/** MAIN CONTENT **/
+#page-title {
   font-weight: bold;
-  margin-bottom: 25px;
-}
-
-/* Grid Sections Styling */
-.menu-section {
+  margin-top: 10px;
   margin-bottom: 30px;
 }
 
-.section-content {
-  background-color: #fff;
-  border: 1px solid #ddd;
-  padding: 20px;
+.menu-section {
+  background-color: #999999;
+  padding: 15px 25px;
+  margin-bottom: 30px;
   min-height: 700px;
-  box-sizing: border-box;
+  position: relative;
 }
 
-.section-content h3 {
-  margin-top: 0;
+.menu-section h3 {
+  font-weight: bold;
+  margin-top: 5px;
   margin-bottom: 15px;
+}
+
+.back-to-top {
+  margin-top: 25px;
   font-weight: bold;
 }
 
-.section-content h4 {
-  font-weight: bold;
-  margin-top: 15px;
-  font-size: 1.1em;
-}
-
-.section-content p {
-  color: #555;
-  line-height: 1.5;
+.back-to-top a {
+  color: #0000EE;
+  text-decoration: underline;
 }
